@@ -1,1 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    background-color: #1F2937;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 100px;
+    background-color: #1F2937;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.hero {
+    flex-basis: 375px;
+}
+
+.h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.text,
+ul {
+    color: #E5E7EB;
+    font-size: 18px;
+}
 
