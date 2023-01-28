@@ -11,7 +11,7 @@ body {
 
 .heimg {
     width: 500px;
-    height: 300px;
+    height: 250px;
 }
 
 ul,
@@ -38,7 +38,7 @@ li,
 }
 
 .hcontainer {
-
+    display: flex;
 }
 
 .header,
@@ -52,6 +52,7 @@ li,
 .text {
     padding-right: 50px;
     max-width: 420px;
+    height: auto;
 }
 
 .htext,
@@ -67,6 +68,7 @@ li,
 .htext {
     font-size: 48px;
     font-weight: 900;
+    align-self: flex-start;
 }
 
 li,
@@ -98,15 +100,21 @@ button {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    padding: 50px 25% 100px 25%;
+    gap: 40px;
 }
 
 .info {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
 
 .imgtext {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .img {
@@ -118,5 +126,23 @@ button {
 }
 
 .quote {
+    display: flex;
+    flex-direction: row;
     background-color: #E5E7EB;
+}
+
+.qcontainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.qtext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.person {
+    font-weight: bold;
+    align-self: flex-end;
 }
