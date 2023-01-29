@@ -6,6 +6,7 @@ body {
 
 .black {
     background-color: black;
+    flex-grow: 0;
     width: 20%;
 }
 
@@ -25,6 +26,7 @@ li,
     display: flex;
     flex-direction: column;
     width: 60%;
+    
     
 }
 
