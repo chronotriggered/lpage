@@ -96,6 +96,10 @@ button {
     padding: 5px 20px;
 }
 
+.text button {
+    border-style: none;
+}
+
 .mcontainer {
     display: flex;
     flex-direction: column;
@@ -150,3 +154,49 @@ button {
     font-weight: bold;
     align-self: flex-end;
 }
+
+.footer {
+    padding: 70px 15% 70px 15%;
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.fbox {
+    background-color: #3882F6;
+    border-radius: 7px;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 30px 80px;
+}
+
+.boxtext {
+    padding: 0 8px 0 0;
+    flex-shrink: 1;
+    
+}
+
+.ftext {
+    font-weight: bold;
+}
+
+.fbox button {
+    border-color: white;
+    border-style:groove ;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+}
+
+
