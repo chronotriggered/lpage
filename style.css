@@ -10,8 +10,8 @@ body {
 }
 
 .heimg {
-    width: 500px;
-    height: 250px;
+    max-width: 500px;
+    max-height: 250px;
 }
 
 ul,
@@ -25,6 +25,7 @@ li,
     display: flex;
     flex-direction: column;
     width: 60%;
+    
 }
 
 .container {
@@ -100,21 +101,24 @@ button {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 25% 100px 25%;
     gap: 40px;
 }
 
 .info {
+    text-align: center;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
+    padding: 50px 25% 0 25%;
 }
 
 .imgtext {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 30px;
+    padding: 0 20% 50px 20%;
 }
 
 .img {
@@ -127,8 +131,8 @@ button {
 
 .quote {
     display: flex;
-    flex-direction: row;
     background-color: #E5E7EB;
+    padding: 100px 18% 60px 18%;
 }
 
 .qcontainer {
